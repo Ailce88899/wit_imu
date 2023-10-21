@@ -17,7 +17,7 @@ sudo chmod +777 /dev/ttyUSB0
 ```
 3.运行
 ```
-$ cd ~/wit_imu
-$ . install/setup.sh
-$ ros2 run ros2_imu imu_com
+cd ~/wit_imu
+. install/setup.sh
+ros2 run ros2_imu imu_com
 ```
