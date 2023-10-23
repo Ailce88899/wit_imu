@@ -3,7 +3,7 @@
 [link](https://blog.csdn.net/weixin_64184244/article/details/127623370)
 下载ros2_serial包
 ```
-    sudo git clone https://github.com/ZhaoXiangBox/serial.git
+    git clone https://github.com/ZhaoXiangBox/serial.git
 ```
 进入serial包，进行make，依次输入以下指令
 ```
