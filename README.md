@@ -1,22 +1,23 @@
 # wit_imu HWT9073-CAN
 ## 安装serial依赖
-[link](http://wjwwood.io/serial/doc/1.1.0/index.html)
-Once you have gathered the dependencies, you need to checkout the software from github.com:
+[link](https://blog.csdn.net/weixin_64184244/article/details/127623370)
+下载ros2_serial包
 ```
-    git clone git://github.com/wjwwood/serial.git
+    sudo git clone https://github.com/ZhaoXiangBox/serial.git
 ```
-Once you have checked out the source code from github.com you can enter the directory and build the software.
+进入serial包，进行make，依次输入以下指令
 ```
     cd serial
+    mkdir build
+    cd build
+    cmake ..
     make
-    make test # (optional) builds the example and tests, and runs the tests.
-    make doc  # (optional) builds _this_ documentation.
 ```
-To install simply:
+进行安装，完成后可直接调用
 ```
     sudo make install
 ```
-To uninstall simply:
+卸载
 ```
     sudo make uninstall
 ```
